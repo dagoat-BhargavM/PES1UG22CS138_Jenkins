@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                build 'PES2UG19CS138-1'
+                build 'PES1UG22CS138-1'
                 sh 'g++ bhargav.cpp -o output'
             }
         }
